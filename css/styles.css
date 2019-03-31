@@ -1,0 +1,287 @@
+/* h1.title{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -90px;
+} */
+
+
+body {
+    color: #000;
+    background: #ffffff;
+
+
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  max-height: 500px;
+
+  position: absolute;
+
+  top: 150px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer}
+.w3-badge {
+  height:13px;width:13px;padding:0}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 3;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* bottom down is the nav bar */
+
+.nav-container {
+  position: absolute; 
+  top:35px;
+  left: 305px;
+}
+
+nav {
+  position: sticky;
+  list-style-type: none;
+  margin: 50;
+  padding: -20;
+  overflow: hidden;
+  background-color:#ffffff;
+  position: -webkit-sticky; /* Safari */
+  width: 700px;
+
+  
+}
+
+/* horizontal*/
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: #0E0E0E;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  text-align:center;
+  margin-right:80px;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+.active {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.map {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  position: absolute;
+  left: 325px;
+   bottom : -500px;
+}
+
+iframe{
+	margin-top:-50px;
+}
+
+/* type writing!!!!!!!!!!!!!! */
+/* Type Writing!!!!!! */
+/* GLOBAL STYLES */
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter p {
+  color: #0E0E0E;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+
+        text-align: center;
+        font-size: 50px;
+        
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4CAF50 }
+}
+
+
+
+/* about me  */
+.right{
+  position:fixed;
+  top:0;
+  right:0;
+  clip: rect(0px,1000px,1000px,200px);
+  margin-right:-300px;
+  width:100%;
+}
+
+.left{
+  position:absolute;
+  font-size: 30px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  left: 30px;
+  
+}
+
+.left p{
+  font-size:15px;
+  width: 450px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.continer-social-media{
+  position: absolute;
+  left:30px;
+}
+.fa{
+  padding-left: 70px;
+  padding-right:40px;
+  font-size: 10px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #ffffff;
+  color: black;
+  
+}
+
+.fa-youtube {
+  background: #ffffff;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #ffffff;
+  color: black;
+}

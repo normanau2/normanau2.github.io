@@ -1,0 +1,58 @@
+<section class="fireOT">
+                <!-- about start -->
+                <!-- section left start -->
+                <div class="fireOT-left left-side" id="about">
+                    <!-- divider start -->
+                    <div class="dividerOT about-top"></div><!-- divider end -->
+                    <!-- container start -->
+                    <div class="container">
+                        <!-- row start -->
+                        <div class="row">
+                            <!-- col start -->
+                            <div class="col-lg-12">
+                                <h2 class="section-subheading section-subheading-about">
+                                    <span>Who am I</span>
+                                </h2>
+                                <h2 class="section-heading">
+                                    About
+                                </h2>
+                            </div><!-- col end -->
+                        </div><!-- row end -->
+                        <!-- divider start -->
+                        <div class="dividerOT dividerOT-inner"></div><!-- divider end -->
+                        <!-- row start -->
+                        <div class="row">
+                            <!-- col start -->
+                            <div class="col-md-6 col-sm-12 about-block">
+                                <h4 class="about-heading">
+                                    Hours of Sleep Lost
+                                </h4>
+                                <div class="about-number-title facts-counter-number">
+                                    85
+                                </div>
+                                <p>
+                                    Hello, my name is Lael Davis. I am a Computer Science (CS) student at George Mason University here in Virginia. The main reason for doing this blog is to sort of "gel" my interests into one prevailing compilation of some sort.  I often find myself attracted to different domains that vary from time to time. Here are some of my interests: singing, basketball, music, fashion, programming, learning japanese, drawing, working out, dancing, math, and much more to say the least. I don't create this list to brag, moreover, I want to inspire people to come out of their comfort zones and try new things. I believe that creativity is the culmination of different experiences and ideas merging together. Hopefully this blog will help in some way and inspire you to be creative and think differently.
+                                    <br><br>"Learn to see. Learn that everything connects to everything else." - Leonardo da Vinci <br><br>
+                                    
+                                    <a class="link-underline" href="">Disclaimer</a>: If you noticed the "hours of sleep lost" indication, don't be alarmed. I'm ok. I just thought this would be a fun statistic to keep up to date to show how much sleep is lost during an average college student's timespan. (this should be good...)
+                                    
+                                    
+                                    
+                                </p>
+                            </div><!-- col end -->
+                            <!-- col start -->
+                            <div class="col-md-6 col-sm-12 about-block about-block-correction">
+                                <h4 class="about-heading">
+                                    Amount of people helped
+                                </h4>
+                                <div class="about-number-title facts-counter-number">
+                                    11
+                                </div>
+                                <p>
+                                    "I'd rather have 1% of the effort of 100 men that 100% of my own effort." <br>-J.Paul Getty.
+                                    <br><br>
+                                    I pondered on what statistic to stick here, but I settled on this one. I saw a video recently by Prince Ea (@PrinceEa)(Social Media Influencer) asking other social media influencers if their followers were leaving their page better than when they arrived? Inspired by his speech, I will try to uphold his message. Everyone is going through something whether they are smiling or not. No matter what race, religion or ethnicity, I believe that everyone has a story that if not valuable to them, will definitely be valuable to someone else. So if I can post something or share something that creates value to atleast one person's life, I will feel truly grateful. However, I cannot do this alone. Neither do I plan to.  <br><br>
+                                    
+                                    In the CS community, there is a term called a "node." This node connects to two or more nodes to create an appearace of a tree formation. This concept can be applied to what I'm referring to. If you gain something valuable or useful in your life, share it with at least two other people and encourage them to share with two of their friends. This process will spread exponentially and could help more people than I ever could on my own. <br><br>
+                                    So all I ask is that if I have helped you in any way, just try to do one thing for me: <a class="link-underline" href="#">pay it forward</a>. <br>
+    
