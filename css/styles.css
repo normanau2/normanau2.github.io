@@ -285,3 +285,13 @@ iframe{
   background: #ffffff;
   color: black;
 }
+
+/* media queries */
+@media only screen and (max-width: 880px) {
+  .right.mobile,
+  .services-img-container.mobile,
+  .works-img-container.mobile,
+  .contact-img-container.mobile {
+    display: none;
+  }
+}
