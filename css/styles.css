@@ -288,7 +288,7 @@ iframe{
 @media only screen and (max-width: 450px) {
   .left,.left p {
     width: 100vw;
-    top: 310px;
+    top: 380px;
     left: 10px;
   }
 }
@@ -307,7 +307,7 @@ iframe{
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   .img-me {
       max-width: 70vw;
 
