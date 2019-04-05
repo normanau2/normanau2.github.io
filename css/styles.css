@@ -285,7 +285,7 @@ iframe{
 }
 
 /* media queries */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .left,.left p {
     width: 100vw;
     top: 310px;
@@ -293,7 +293,7 @@ iframe{
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .right {
     position:relative;
     top: 0;
