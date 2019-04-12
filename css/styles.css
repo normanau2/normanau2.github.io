@@ -251,15 +251,12 @@ iframe{
   -webkit-font-smoothing: antialiased;
 }
 
-.continer-social-media{
-  position: absolute;
-  left:30px;
-}
+
 .fa{
-  padding-left: 70px;
+  padding-left: 70px;  
   padding-right:40px;
   font-size: 10px;
-  width: 50px;
+  width: 10px;
   text-align: left;
   text-decoration: none;
   margin: 5px 2px;
@@ -270,13 +267,13 @@ iframe{
   opacity: 0.7;
 }
 .fa-instagram {
-  background: #ffffff;
+  background: #0000;
   color: black;
   
 }
 
 .fa-youtube {
-  background: #ffffff;
+  background: #0000;
   color: black;
 }
 
@@ -312,13 +309,14 @@ iframe{
 
 @media only screen and (max-width: 430px) {
   .fa{
-    padding-left: 55px;
-    padding-right:40px;
+
+    padding-left: 20px;
+    padding-right:20px;
     font-size: 10px;
     width: 100px;
     text-align: left;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 5px;
   }
   }
 
@@ -348,12 +346,12 @@ iframe{
 
 @media only screen and (max-width: 768px) and (min-width: 435px) {
   .fa{
-    padding-left: 150px;
-    padding-right:40px;
+    padding-left: 20px;
+    padding-right:20px;
     font-size: 10px;
     width: 100px;
     text-align: left;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 70px;
   }
   }
