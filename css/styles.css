@@ -286,7 +286,7 @@ iframe{
 }
 
 /* media queries */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
   .left,.left p {
     width: 98vw;
     top: 350px;
@@ -295,7 +295,7 @@ iframe{
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
   .right {
     position:relative;
     top: 0;
@@ -308,13 +308,13 @@ iframe{
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
   .img-me {
-      max-width: 80vw;
+      max-width: 70vw;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
   .fa{
     padding-left: 50px;
     padding-right:40px;
