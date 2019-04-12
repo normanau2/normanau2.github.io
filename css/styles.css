@@ -286,7 +286,7 @@ iframe{
 }
 
 /* media queries */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .left,.left p {
     width: 98vw;
     top: 350px;
@@ -295,28 +295,60 @@ iframe{
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .right {
     position:relative;
     top: 0;
     left:0;
-
-
-    
-    
   }
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .img-me {
       max-width: 70vw;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .fa{
     padding-left: 55px;
+    padding-right:40px;
+    font-size: 10px;
+    width: 100px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .left,.left p {
+      width: 98vw;
+      top: 350px;
+      left: 10px;
+      padding-right: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) and (min-width:430px){
+    .right {
+      position:relative;
+      top: 0;
+      left:0;
+    }
+  }
+
+@media only screen and (max-width: 768px) and (min-width:435px) {
+  .img-me {
+      max-width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 435px) {
+  .fa{
+    padding-left: 150px;
     padding-right:40px;
     font-size: 10px;
     width: 100px;
