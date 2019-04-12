@@ -288,9 +288,10 @@ iframe{
 /* media queries */
 @media only screen and (max-width: 450px) {
   .left,.left p {
-    width: 100vw;
-    top: 380px;
+    width: 98vw;
+    top: 350px;
     left: 10px;
+    padding-right: 5px;
   }
 }
 
@@ -309,8 +310,18 @@ iframe{
 
 @media only screen and (max-width: 450px) {
   .img-me {
-      max-width: 70vw;
-
-
+      max-width: 80vw;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .fa{
+    padding-left: 50px;
+    padding-right:40px;
+    font-size: 10px;
+    width: 100px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  }
