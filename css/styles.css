@@ -121,25 +121,17 @@ body {
 /* bottom down is the nav bar */
 
 .nav-container {
-  position: absolute; 
-  top:35px;
-  left: 305px;
-}
-
-nav {
-  position: sticky;
+  position:relative;
+  top:100px;
+  text-align: center;
   list-style-type: none;
-  margin: 50;
-  padding: -20;
-  overflow: hidden;
-  background-color:#ffffff;
-  position: -webkit-sticky; /* Safari */
-  width: 700px;
+  margin: 50px;
 
-  
+
 }
 
-/* horizontal*/
+
+/* horizontal nav bar*/
 
 li {
   float: left;
@@ -149,11 +141,11 @@ li {
 li a {
   display: block;
   color: #0E0E0E;
-  text-align: center;
-  padding: 14px 17px;
+
+  padding: 14px 50px;
   text-decoration: none;
-  text-align:center;
-  margin-right:80px;
+
+
 }
 
 li a:hover {
@@ -164,6 +156,9 @@ li a:hover {
   background-color: #ffffff;
   font-weight: bold;
 }
+
+
+
 
 .map {
   width:100%;
@@ -184,6 +179,7 @@ iframe{
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter p {
+  
   color: #0E0E0E;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -196,7 +192,7 @@ iframe{
     blink-caret .5s step-end infinite;
 
 
-        text-align: center;
+
         font-size: 50px;
         
 
