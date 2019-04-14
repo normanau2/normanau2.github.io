@@ -4,9 +4,6 @@
 body {
     color: #000;
     background: #ffffff;
-
-
-    
     display: flex;
     justify-content: center;
 }
