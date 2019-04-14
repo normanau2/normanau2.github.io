@@ -122,7 +122,7 @@ body {
 
 .nav-container {
   position:relative;
-  top:100px;
+  top:20px;
   text-align: center;
   list-style-type: none;
   margin: 50px;
@@ -165,8 +165,8 @@ li a:hover {
   height:100%;
   overflow:hidden;
   position: absolute;
-  left: 325px;
-   bottom : -500px;
+  top: 300px;
+
 }
 
 iframe{
