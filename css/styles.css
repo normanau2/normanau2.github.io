@@ -179,6 +179,10 @@ iframe{
 /* GLOBAL STYLES */
 
 /* DEMO-SPECIFIC STYLES */
+.typewriter{
+  position: absolute;
+  left:375px;
+}
 .typewriter p {
   
   color: #0E0E0E;
